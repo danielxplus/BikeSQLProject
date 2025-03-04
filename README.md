@@ -20,35 +20,32 @@ This project focuses on analyzing **bike rental data in London**, utilizing **Du
 - **`londonSample.csv`** – A 500-row sample for reference.
 
 ### **Dependencies**
-All required dependencies are listed in `requirements.txt`:
+To install all required libraries, please run:
 ```sh
 pip install duckdb sqlite3 pandas streamlit matplotlib plotly
 ```
 
 ## 🛠 How to Run
-1. **Setup Environment**
-   ```sh
-   pip install -r requirements.txt
-   ```
+To create all files from scratch, run in the following order:
 
-2. **Generate DuckDB File** (Only if missing)
+1. **Generate DuckDB File** 
    ```sh
    python createDuckDBfile.py
    ```
 
-3. **Process Queries and Create Summary Tables**
+2. **Process Queries and Create Summary Tables**
    ```sh
    python QuestionsUsingDuckDB.py
    ```
 
-4. **Convert to SQLite**
+3. **Convert to SQLite**
    ```sh
    python DuckDBtoSQLite.py
    ```
 
-5. **Run Streamlit Dashboard**
+4. **Run Streamlit Dashboard**
    ```sh
-   streamlit run app.py
+   streamlit run streamlit.py
    ```
 
 ## 📊 Analysis & Key Insights
