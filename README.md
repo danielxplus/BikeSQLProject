@@ -1,11 +1,11 @@
-# 📊 Big Data Final Exercise
+# 📊 Big Data Project
+
+## 📂 Project Overview
+This project focuses on analyzing **bike rental data in London**, utilizing **DuckDB and SQLite** for data processing and **Streamlit** for visualization. The dataset contains **over 1 million rows and 12 columns**, extracted from [this Kaggle dataset](https://www.kaggle.com/datasets/ajohrn/bikeshare-usage-in-london-and-taipei-network).
 
 ## 👨‍💻 Authors
 - **Daniel Avraham**
 - **Tomer Avrahami**
-
-## 📂 Project Overview
-This project focuses on analyzing **bike rental data in London**, utilizing **DuckDB and SQLite** for data processing and **Streamlit** for visualization. The dataset contains **over 1 million rows and 12 columns**, extracted from [this Kaggle dataset](https://www.kaggle.com/datasets/ajohrn/bikeshare-usage-in-london-and-taipei-network).
 
 ## 🚀 Project Structure
 ### **Python Scripts**
